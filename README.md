@@ -5,6 +5,10 @@
 yarn install
 ```
 
+### Project link 
+
+[https://instantcdn.netlify.app/] (https://instantcdn.netlify.app/)
+
 ### Compiles and hot-reloads for development
 ```
 yarn serve
