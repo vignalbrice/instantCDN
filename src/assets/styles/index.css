@@ -1,0 +1,18 @@
+/* src/assets/styles/index.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .btn {
+    @apply font-bold py-2 px-4 rounded;
+  }
+}
+
+.center-absolute-content {
+  position: fixed; /* postulat de départ */
+  top: 9%;
+  left: 50%; /* à 50%/50% du parent référent */
+  transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+}
